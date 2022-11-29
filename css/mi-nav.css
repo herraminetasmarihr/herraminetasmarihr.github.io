@@ -13,6 +13,9 @@ mi-nav ul {
   padding: 0;
   margin: 0;
 }
+mi-nav hover{
+  background-color: rgb(255, 217, 0);
+}
 
 mi-nav ul li {
   margin: 0.5rem;
