@@ -3,8 +3,8 @@ class MiFooter
   connectedCallback() {
     this.innerHTML = /* html */
       `<p>
-        &copy; 2022
-        Ricardo Armando Machorro Reyes.
+        &copy; Noviembre 2022
+        Herrera Rodriguez Mariana.
       </p>`;
   }
 }
