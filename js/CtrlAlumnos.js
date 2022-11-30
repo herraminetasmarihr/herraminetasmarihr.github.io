@@ -51,7 +51,7 @@ function htmlLista(snap) {
     html += /* html */
       `<li class="vacio">
         -- No hay herramientas
-        registrados. --
+        registradas. --
       </li>`;
   }
   lista.innerHTML = html;
@@ -65,7 +65,7 @@ function htmlFila(doc) {
   /**
    * @type {import("./tipos.js").
                   Alumno} */
- const data = doc.data();
+  const data = doc.data();
   const matricula = cod(data.matricula);
   const nombre = cod(data.nombre);
   var fsf= cod(data.fecha);
@@ -80,7 +80,7 @@ function htmlFila(doc) {
       <a class="fila" href=
   "alumno.html?${parámetros}">
         <strong class="primario">
-          ${codigo} ${nombre} ${dformat}
+          ${matricula} ${nombre} ${dformat}
         </strong>
       </a>
      
