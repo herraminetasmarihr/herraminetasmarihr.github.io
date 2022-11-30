@@ -15,7 +15,7 @@ const lista = document.
   querySelector("#lista");
 const daoAlumno =
   getFirestore().
-    collection("Alumno");
+    collection("Herramienta");
 
 getAuth().
   onAuthStateChanged(
