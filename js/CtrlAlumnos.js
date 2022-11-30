@@ -65,8 +65,8 @@ function htmlFila(doc) {
   /**
    * @type {import("./tipos.js").
                   Alumno} */
-  const data = doc.data();
-  const codigo = cod(data.codigo);
+ const data = doc.data();
+  const matricula = cod(data.matricula);
   const nombre = cod(data.nombre);
   var fsf= cod(data.fecha);
   var fecha = new Date(fsf);

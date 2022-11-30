@@ -52,7 +52,7 @@ async function guarda(evt) {
       codigo,
       nombre,
       precio,
-      grupo,
+      marca,
       fecha 
     };
     await daoAlumno.
